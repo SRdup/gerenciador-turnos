@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Visualização de Turnos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 95%;
+      max-width: 1000px;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tabela de Turnos</h1>
+  <table id="turnos-table">
+    <thead>
+      <tr>
+        <th>Turno</th>
+        <th>Horário</th>
+        <th>Responsável A</th>
+        <th>Responsável B</th>
+      </tr>
